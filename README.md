@@ -6,7 +6,8 @@ This example demonstrates how to run Glue42 Server from NPM packages using basic
 
 ## Setup your access to Glue42 JFROG artifactory
 
-Some of the packages used in this example are in a private NPM repository. You will need access to it. Once you have this follow the steps to setup your dev env:
+Some of the packages used in this example are in a private NPM repository - you need to have access to it.
+Once you have, follow the steps to setup your dev env:
 
 1. To prepare a **.npmrc** file:
    1. Login to Glue42 JFROG
@@ -19,7 +20,7 @@ Some of the packages used in this example are in a private NPM repository. You w
 
 ## Prepare a running mongo instance
 
-Once you have a running mongodb instance change the **mongoURI** env in **server/src/index.ts**
+Once you have a running mongodb instance change the **mongoURI** variable in **server/src/index.ts**
 
 # How to run the server
 
