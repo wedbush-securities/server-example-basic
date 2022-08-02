@@ -2,19 +2,21 @@ This example demonstrates how to run Glue42 Server from NPM packages using basic
 
 ## Prerequisites 
 
-### Setup your access to Glue42 JFROG artifactory
+### Access
+The NPM packages exposing the Glue42 Server and the Admin UI are hosted in a private NPM repository. To obtain access, contact us at info@glue42.com.
 
-Some of the packages used in this example are in a private NPM repository - you need to have access to it.
-Once you have, follow the steps to setup your dev env:
+### Environment Setup
+Generate an .npmrc file that will contain the authentication information for connecting to the private NPM repository. Make sure to exclude this file from your source control system.
 
-1. To prepare a **.npmrc** file:
-   1. Login to Glue42 JFROG
-   2. Expand menu in top right
-   3. Click Setup
-   4. Select NPM
-   5. From the dropdown select default-npm-virtual
-   6. Copy the snippet
-2. Add a **.npmrc** file with the contents you just copied to **server** and **admin-ui** folders
+To generate an .npmrc file:
+
+Login to Glue42 JFROG.
+Expand the menu in top right.
+Click "Setup".
+Select "NPM".
+From the dropdown menu select _default-npm-virtual_.
+Copy the snippet.
+Create an .npmrc file with the copied contents.
 
 ### Prepare a running mongo instance
 
