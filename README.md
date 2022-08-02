@@ -10,13 +10,13 @@ Generate an .npmrc file that will contain the authentication information for con
 
 To generate an .npmrc file:
 
-Login to Glue42 JFROG.
-Expand the menu in top right.
-Click "Setup".
-Select "NPM".
-From the dropdown menu select _default-npm-virtual_.
-Copy the snippet.
-Create an .npmrc file with the copied contents.
+* Login to Glue42 JFROG.
+* Expand the menu in top right.
+* Click "Setup".
+* Select "NPM".
+* From the dropdown menu select _default-npm-virtual_.
+* Copy the snippet.
+* Create an .npmrc file with the copied contents.
 
 ### Prepare a running mongo instance
 
